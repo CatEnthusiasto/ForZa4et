@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ribas Food Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <section id="section-header">
+    <header class="site-header">
+      <div class="header-bg">
+        <div class="container header-content">
+          <!-- Top Row: Logo, Search, Cart Icon Area -->
+          <div class="header-top">
+            <div class="logo-wrapper">
+              <img src="images/9838a952a95de962cc824e057f2ed33d5ad39dd2.png" alt="Ribas Logo" class="logo">
+            </div>
+            
+            <!-- Группа поиска и иконки пользователя -->
+            <div class="search-user-group">
+              <div class="search-bar">
+                <div class="search-input-wrapper">
+                  <span class="search-placeholder">Поиск...</span>
+                  <div class="search-divider"></div>
+                  <span class="search-category">Категории</span>
+                  <span class="search-arrow">&gt;</span>
+                </div>
+              </div>
+              
+              <!-- Иконка пользователя -->
+              <div class="icon-group">
+                <div class="user-icon-wrapper">
+                  <img src="images/419_135.svg" alt="Frame" class="user-frame">
+                  <img src="images/9866cf2a09682e359cd2fbd0ea9cd1c7f68b1ab4.png" alt="User" class="user-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Row: Навигация -->
+          <div class="header-bottom">
+            <nav class="main-nav">
+              <div class="nav-item">
+                <span class="nav-link">Главная</span>
+              </div>
+              <div class="nav-item">
+                <span class="nav-link">Меню</span>
+              </div>
+              <div class="nav-item">
+                <span class="nav-link">О нас</span>
+              </div>
+              <div class="nav-item">
+                <span class="nav-link">Контакты</span>
+              </div>
+              <div class="nav-item">
+                <span class="phone-link">+7 (800) 555-35-35</span>
+              </div>
+              <div class="nav-item">
+                <span class="header-cart-text">Корзина</span>
+                <!-- Иконка корзины поверх текста -->
+                <div class="cart-overlay">
+                  <img src="images/b52c6fce247909eaadcf6b795960116358e96b78.png" alt="Cart" class="cart-icon">
+                  <img src="images/419_151.svg" alt="Badge" class="cart-badge">
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section id="section-hero">
+    <div class="container">
+      <div class="hero-video">
+        <video controls>
+          <source src="images/mywork.mp4" type="video/mp4">
+          Ваш браузер не поддерживает видео тег.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-categories">
+    <div class="container">
+      <h2 class="section-title">Меню</h2>
+      <div class="categories-grid">
+        <!-- Row 1 -->
+        <div class="cat-card" style="background-color: #8ab62a;">
+          <span class="cat-title">Роллы/Суши</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">11 позиций</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #ff9b62;">
+          <span class="cat-title">Горячие блюда</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">21 позиция</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #ffde59;">
+          <span class="cat-title">Гарнир</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">13 позиций</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #ef1609;">
+          <span class="cat-title">Пицца</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">9 позиций</span>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="cat-card" style="background-color: #f74c00;">
+          <span class="cat-title">Фаст-фуд</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">20 позиций</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #ffc83a;">
+          <span class="cat-title">Напитки</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">10 позиций</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #ff6c02;">
+          <span class="cat-title">Десерт</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">6 позиций</span>
+        </div>
+        
+        <div class="cat-card" style="background-color: #7bed18;">
+          <span class="cat-title">Салаты</span>
+          <div class="cat-line"></div>
+          <span class="cat-count">7 позиций</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-products">
+    <div class="container">
+      <div class="products-scroll-wrapper">
+        <div class="products-list">
+          
+          <!-- Product 1: Salad -->
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/de09f91fdae6d0ee35406501d9276c7126d2c26b.png" alt="Салат" class="product-img img-salad">
+            </div>
+            <h3 class="product-title">Салат с бурратой и рукколой (350 г)</h3>
+            <p class="product-article">Артикул 5192946803</p>
+            <p class="product-price">259 р.</p>
+            <button class="add-to-cart-btn">
+              <div class="btn-bg"></div>
+              <span class="btn-text">В корзину</span>
+            </button>
+          </div>
+
+          <!-- Product 2: Sushi -->
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/sushi.jpg" alt="Суши" class="product-img img-sushi">
+            </div>
+            <h3 class="product-title">Сет "Кашими"</h3>
+            <p class="product-article">Артикул 5143294059</p>
+            <p class="product-price">899 р.</p>
+            <button class="add-to-cart-btn">
+              <div class="btn-bg"></div>
+              <span class="btn-text">В корзину</span>
+            </button>
+          </div>
+
+          <!-- Product 3: Pizza -->
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/pizza.jpg" alt="Пицца" class="product-img img-pizza">
+            </div>
+            <h3 class="product-title">Пицца с грибами и пепперони (35 см)</h3>
+            <p class="product-article">Артикул 5189502850</p>
+            <p class="product-price">599 р.</p>
+            <button class="add-to-cart-btn">
+              <div class="btn-bg"></div>
+              <span class="btn-text">В корзину</span>
+            </button>
+          </div>
+
+          <!-- Product 4: Burger -->
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/burger.jpg" alt="Бургер" class="product-img img-burger">
+            </div>
+            <h3 class="product-title">Гранд-чизбургер</h3>
+            <p class="product-article">Артикул 5129106784</p>
+            <p class="product-price">199 р.</p>
+            <button class="add-to-cart-btn">
+              <div class="btn-bg"></div>
+              <span class="btn-text">В корзину</span>
+            </button>
+          </div>
+
+          <!-- Product 5: Cola -->
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/223115494bae4ac43e51b26ee7ecd434a06ba842.png" alt="Кока-кола" class="product-img img-cola">
+            </div>
+            <h3 class="product-title">Кока-кола (400 мл)</h3>
+            <p class="product-article">Артикул 5175038901</p>
+            <p class="product-price">79 р.</p>
+            <button class="add-to-cart-btn">
+              <div class="btn-bg"></div>
+              <span class="btn-text">В корзину</span>
+            </button>
+          </div>
+
+        </div>
+        
+        <!-- Scroll Indicators -->
+        <div class="scroll-indicators">
+          <div class="indicator active"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-footer">
+    <div class="container contact-title-wrapper">
+      <h2 class="contact-title">Связаться с нами</h2>
+    </div>
+    
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <!-- Логотип слева -->
+        <div class="footer-col left-col">
+          <img src="images/9838a952a95de962cc824e057f2ed33d5ad39dd2.png" alt="Ribas Logo" class="footer-logo">
+        </div>
+
+        <!-- Центральная колонка - все блоки в строку -->
+        <div class="footer-col center-col">
+          <div class="footer-sections-row">
+            <!-- Соцсети -->
+            <div class="footer-section">
+              <h3 class="footer-heading">Соцсети</h3>
+              <div class="social-icons">
+                <img src="images/cc41e15b2138ca4020b12fcd941778dc00b88aa7.png" alt="VK" class="social-icon">
+                <img src="images/0b892127d28fa8be2de56fd84fef4ca549708d57.png" alt="Telegram" class="social-icon">
+              </div>
+            </div>
+            
+            <!-- Партнеры -->
+            <div class="footer-section">
+              <h3 class="footer-heading">Партнеры</h3>
+              <p class="footer-text">Доставка Еда</p>
+              <p class="footer-text">Яндекс Еда</p>
+              <p class="footer-text">Delivery Club</p>
+            </div>
+            
+            <!-- Контакты -->
+            <div class="footer-section">
+              <h3 class="footer-heading">Контакты</h3>
+              <p class="footer-text">+7 (800) 555-35-35</p>
+              <p class="footer-text">+7 (495) 123-45-67</p>
+              <p class="footer-text">order@ribas.ru</p>
+              <p class="footer-text">support@ribas.ru</p>
+            </div>
+            
+            <!-- График работы теперь в центральной строке -->
+            <div class="footer-section">
+              <h3 class="footer-heading">График работы</h3>
+              <p class="footer-text">Пн-Пт: 11:00-23:00</p>
+              <p class="footer-text">Сб-Вс: 11:00-21:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-strip">
+        <div class="container">
+          <p class="copyright-text">2025 © Ribas - служба доставки еды</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
